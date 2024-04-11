@@ -40,6 +40,11 @@ export const Customer = sequelize.define(
       type: DataTypes.STRING,
       allowNull: false
     },
+    status: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      defaultValue: 'active'
+    },
     customer_image: {
       type: DataTypes.STRING,
       defaultValue: 'user_icon.png'

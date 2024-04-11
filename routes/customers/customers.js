@@ -1,7 +1,7 @@
 import { Router } from 'express'
-import { CustomerControllers } from '../controllers/customersController.js'
-import { validateId } from '../middlewere/check_id/validateId.js'
-import { validateData } from '../middlewere/create_customer_data/validateData.js'
+import { CustomerControllers } from '../../controllers/customer/customersController.js'
+import { validateId } from '../../middlewere/check_id/validateId.js'
+import { validateData } from '../../middlewere/create_customer_data/validateData.js'
 export const customerRouter = Router()
 
 customerRouter.get(

@@ -15,6 +15,7 @@ export const Country = sequelize.define(
   },
   {
     freezeTableName: true,
-    underscored: true
+    underscored: true,
+    timestamps: false
   }
 )

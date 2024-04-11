@@ -1,5 +1,4 @@
-import { Customer } from '../schemas/customer.schema.js'
-import { CustomerModel } from '../models/customer/customer.module.js'
+import { CustomerModel } from '../../models/customer/customer.module.js'
 export class CustomerControllers {
   static async getAllCustomersController(req, res) {
     try {
